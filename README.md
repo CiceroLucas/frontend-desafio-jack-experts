@@ -1,4 +1,4 @@
-# Task Manager - Gerenciador de Tarefas
+# Gerenciador de Tarefas Frontend
 
 Este é um projeto de Gerenciamento de Tarefas desenvolvido em **Next.js** no front-end e **NestJS** no back-end. O sistema permite que usuários autenticados possam criar, editar, concluir e excluir tarefas. Além disso, uma notificação é exibida sempre que uma tarefa é concluída.
 
