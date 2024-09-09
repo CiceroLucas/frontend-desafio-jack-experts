@@ -41,7 +41,7 @@ export default function Register() {
   return (
     <div className="text-[#333] bg-white">
       <div className="min-h-screen flex flex-col items-center justify-center">
-        <div className="grid md:grid-cols-2 items-center gap-4 max-w-6xl w-full p-4 m-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md">
+        <div className="grid md:grid-cols-2 items-center gap-4 max-w-6xl w-full p-4 m-4 shadow-lg rounded-md">
           <div className="md:max-w-md w-full sm:px-6 py-4">
             <form onSubmit={handleSubmit}>
               <div className="mb-12">
@@ -111,7 +111,7 @@ export default function Register() {
               <div className="mt-12">
                 <button
                   type="submit"
-                  className="button w-full shadow-xl py-2.5 px-4 text-sm font-semibold rounded-full text-white hover:bg-orange-500 focus:outline-none"
+                  className="button w-full shadow-xl py-2.5 px-4 text-sm font-semibold rounded text-white hover:bg-orange-500 focus:outline-none"
                   disabled={isLoading}
                 >
                   {isLoading ? "Carregando..." : "Criar conta"}
