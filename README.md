@@ -13,6 +13,11 @@ Este é um projeto de Gerenciamento de Tarefas desenvolvido em **Next.js** no fr
 ## Deploy 
 https://gerenciador-de-tarefas-peach.vercel.app
 
+## Email e Senha para teste:
+Email: admin@example.com
+
+Password: Admin@1234
+
 ## Tecnologias Utilizadas
 
 ### Front-end
